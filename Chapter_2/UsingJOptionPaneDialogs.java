@@ -11,7 +11,7 @@ public class  UsingJOptionPaneDialogs {
         do {
             // 1. Prompt the user for their name using an input dialog.
             String name = JOptionPane.showInputDialog(
-                null, // Parent component (null for default placement)
+                null, 
                 "Please enter your name:", 
                 "Name Input", 
                 JOptionPane.QUESTION_MESSAGE 
@@ -58,4 +58,5 @@ public class  UsingJOptionPaneDialogs {
         System.out.println("Program finished.");
     }
 }
+
 
