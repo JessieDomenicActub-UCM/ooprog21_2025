@@ -9,7 +9,7 @@ public class  UsingJOptionPaneDialogs {
         boolean confirmed = false;
 
         do {
-            // 1. Prompt the user for their name using an input dialog.
+           
             String name = JOptionPane.showInputDialog(
                 null, 
                 "Please enter your name:", 
@@ -17,7 +17,7 @@ public class  UsingJOptionPaneDialogs {
                 JOptionPane.QUESTION_MESSAGE 
             );
 
-            // Handle the case where the user clicks "Cancel" or closes the dialog.
+           
             if (name == null) {        
                 System.exit(0);
             }
@@ -33,16 +33,15 @@ public class  UsingJOptionPaneDialogs {
                 continue;
             }
 
-            // 2. Display a confirmation dialog to ask if the name should be shown.
+           
             int confirmationResult = JOptionPane.showConfirmDialog(
                 null, 
                 "Do you want to show your name: \"" + name + "\"?",
                 "Confirmation",
-                JOptionPane.YES_NO_OPTION // Button options (Yes/No)
+                JOptionPane.YES_NO_OPTION 
             );
 
-            if (confirmationResult == JOptionPane.YES_OPTION) {
-                // If the user confirms, set the flag to true to exit the loop.
+            if (confirmationResult == JOptionPane.YES_OPTION) {                
                 confirmed = true;
 
                 JOptionPane.showMessageDialog(
@@ -58,5 +57,6 @@ public class  UsingJOptionPaneDialogs {
         System.out.println("Program finished.");
     }
 }
+
 
 
