@@ -29,10 +29,11 @@ public class DebugFour2
         input.close(); 
     } 
 
-    // Fix: Corrected parameter type and variable name (p)
+    
     public static void display(DebugPen p)
     {
         System.out.println("   The pen has ink color " + p.getColor());
         System.out.println("   and a " + p.getPoint() + " point.");
     }
+
 }
