@@ -24,6 +24,5 @@ public class DebugPen
     public String getPoint()
     {
         return point; 
-    } // <-- FIX: Closing brace for the getPoint() method body added.
-
-} // <-- FIX: Closing brace for the DebugPen class added.
+    } 
+} 
