@@ -28,7 +28,7 @@ public class BankBalanceByRateAndYear {
                 System.out.printf("After year %d balance is $%.4f%n", year, currentBalance);
             }
             
-            System.out.println(); 
         }       
     }
+
 }
